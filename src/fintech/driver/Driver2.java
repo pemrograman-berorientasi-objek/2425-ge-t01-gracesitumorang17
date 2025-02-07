@@ -1,15 +1,10 @@
 package fintech.driver;
 
-/**
- * @author NIM Nama
- * @author NIM Nama
- */
+
+ 
 public class Driver2 {
 
     public static void main(String[] _args) {
-
-        // codes
-
-    }
-
+        Transaction transaction = new Transaction("TX123", 1000.0, "2023-10-01");
+        System.out.println(transaction);    } 
 }

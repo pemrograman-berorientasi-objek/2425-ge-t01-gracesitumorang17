@@ -1,7 +1,8 @@
 package fintech.driver;
 
 import fintech.model.Account;
-import java.util.Transaction;
+import java.util.Scanner;
+
 
 /**
  * @author 12S23008 Ranty Pakpahan

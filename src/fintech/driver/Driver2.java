@@ -1,10 +1,15 @@
 package fintech.driver;
 
-
- 
+/**
+ * @author 12S23008 Ranty Pakpahan
+ * @author 12S23048 Grace Caldera
+ */
 public class Driver2 {
 
     public static void main(String[] _args) {
-        Transaction transaction = new Transaction("TX123", 1000.0, "2023-10-01");
-        System.out.println(transaction);    } 
+
+        // codes
+
+    }
+
 }

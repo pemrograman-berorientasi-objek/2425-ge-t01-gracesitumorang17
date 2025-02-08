@@ -7,7 +7,7 @@ package fintech.model;
 public class Account {
     private final String owner;
     private final String accountName;
-    private double balance;
+    private final double balance;
 
     public Account(String owner, String accountName) {
         this.owner = owner;
@@ -15,7 +15,7 @@ public class Account {
         this.balance = 0.0;
     }
 
-    public String getOwner() { 
+    public String getOwner() {
         return owner;
     }
 
@@ -25,18 +25,6 @@ public class Account {
 
     public double getBalance() {
         return balance;
-    }
-
-    public void deposit(double amount) {
-        if (amount > 0) {
-            this.balance += amount;
-        }
-    }
-
-    public void withdraw(double amount) {
-        if (amount > 0 && amount <= this.balance) {
-            this.balance -= amount;
-        }
     }
 
     public void displayAccountInfo() {

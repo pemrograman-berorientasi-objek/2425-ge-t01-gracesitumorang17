@@ -5,20 +5,7 @@ package fintech.model;
  * @author 12S23048 Grace Caldera
  */
 public class Transaction {
-    private String id;
-    private double amount;
-    private String date;
-    private String note;
 
-    public Transaction(String id, double amount, String date, String note) {
-        this.id = id;
-        this.amount = amount;
-        this.date = date;
-        this.note = note;
-    }
+    // class definition
 
-    @Override
-    public String toString() {
-        return "Transaction{id='" + id + "', amount=" + amount + ", date='" + date + "', note='" + note + "'}";
-    }
 }
